@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tree"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Конвертер единиц информации"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:gravity="center_horizontal|top"
+        />
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+    <!--<EditText
+        android:id="@+id/nu"
+        android:paddingLeft="10dp"
+
+        android:inputType="number"
+        android:hint="Введите число"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/back"
+        android:singleLine="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="31dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Iz"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_marginLeft="31dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:background="@drawable/back"
+                android:layout_marginLeft="31dp"
+                android:id="@+id/spinner1"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:entries="@array/фигуры"
+                app:layout_constraintTop_toBottomOf="@+id/selection"/>
+            <Spinner
+                android:background="@drawable/back"
+                android:layout_marginLeft="31dp"
+                android:id="@+id/spinner2"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:entries="@array/фигуры"
+                app:layout_constraintTop_toBottomOf="@+id/selection"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>-->
+    <TextView
+        android:id="@+id/tt1"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Результат"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/back"
+        android:singleLine="true" />
+
+    <Button
+        android:onClick="yy"
+        android:background="@drawable/backb"
+        android:text="Вернуться"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
+        android:gravity="center_horizontal|top"
+        android:layout_marginLeft="130dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/some_id"
+       android:textColor="@color/white"
+        android:textSize="23dp"
+        android:gravity="center_horizontal|top"
+        />
+    <ImageView
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:gravity="center_horizontal|top"
+        android:layout_marginLeft="70dp"/>
+
+    <EditText
+        android:onClick="hendler"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:id="@+id/login"
+        android:hint="Введите логин"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/back"
+        />
+    <EditText
+        android:onClick="hendler"
+        android:paddingLeft="10dp"
+        android:id="@+id/pass"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Введите пароль"
+        android:background="@drawable/back"
+        android:layout_marginTop="25dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="31dp"/>
+    <Button
+        android:onClick="enter"
+        android:background="@drawable/backb"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:padding="12dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center_horizontal|top"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sxlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sxpas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
